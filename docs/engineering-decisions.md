@@ -1,6 +1,6 @@
 # Engineering decision record
 
-- Product direction and acceptance criteria: Chuan-Chih Hsu
+- Product direction and acceptance criteria: Chuan-Chi Hsu
 - Implementation support: OpenAI Codex
 
 This record shows the human decisions that shaped the system. It is intentionally separate from the code-generation history: engineering ownership includes deciding what must be true, which risks matter, and how success is verified.

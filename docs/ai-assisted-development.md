@@ -2,7 +2,7 @@
 
 ## Authorship statement
 
-The implementation and documentation were developed with substantial assistance from an OpenAI Codex coding agent. Chuan-Chih Hsu served as project owner: defining the problem, adding operating constraints, choosing behavior at ambiguous boundaries, authorizing external actions, and reviewing acceptance outcomes.
+The implementation and documentation were developed with substantial assistance from an OpenAI Codex coding agent. Chuan-Chi Hsu served as project owner: defining the problem, adding operating constraints, choosing behavior at ambiguous boundaries, authorizing external actions, and reviewing acceptance outcomes.
 
 This is not presented as unaided manual coding.
 
