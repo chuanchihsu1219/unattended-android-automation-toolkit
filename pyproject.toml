@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unattended-android-automation-toolkit"
+version = "0.1.0"
+description = "Reliability-first building blocks for unattended Android app data collection on Windows"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+android = ["uiautomator2>=3.2,<4"]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+android-automation-toolkit = "android_automation_toolkit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
