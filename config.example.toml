@@ -1,0 +1,15 @@
+[android]
+sdk_root = "C:/Users/you/AppData/Local/Android/Sdk"
+avd_name = "Automation_API36"
+serial = "emulator-5556"
+port = 5556
+timezone = "Asia/Taipei"
+
+[timeouts]
+command_seconds = 30
+boot_seconds = 240
+shutdown_seconds = 30
+
+[collection]
+schedule_hours = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+skip_midnight = true
